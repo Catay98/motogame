@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mad Skills Motocross - Play Free Online Moto Game | MotoGame.Online</title>
+    <meta name="description" content="Experience ultimate motocross racing! Play Mad Skills Motocross 2 - the best online moto game with realistic physics and intense stunts.">
+    <link rel="canonical" href="https://motogame.online/mad-skills-motocross">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .game-container {
+            background: linear-gradient(135deg, #f5f5f7 0%, #ffffff 100%);
+        }
+        .apple-shadow {
+            box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+        }
+        iframe {
+            min-height: 640px;
+        }
+        @media (max-width: 768px) {
+            iframe {
+                min-height: 480px;
+            }
+        }
+    </style>
+</head>
+<body class="bg-[#f5f5f7]">
+    <!-- Navigation -->
+    <nav class="bg-white/80 backdrop-blur-sm border-b border-[#d2d2d7] sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-3">
+            <a href="/" class="text-[#1d1d1f] font-semibold text-lg">MotoGame.Online</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="max-w-6xl mx-auto px-4 py-8 game-container">
+        <h1 class="text-4xl md:text-5xl font-bold text-[#1d1d1f] text-center mb-6">Mad Skills Motocross 2</h1>
+        
+        <p class="text-xl text-[#86868b] text-center mb-8 px-4 max-w-3xl mx-auto">
+            The ultimate motocross experience with physics-based gameplay and insane stunts!
+        </p>
+
+        <!-- Game Frame -->
+        <div class="apple-shadow rounded-xl overflow-hidden mb-12">
+            <iframe 
+                src="https://poki.com/zh/g/mad-skills-motocross-2" 
+                class="w-full bg-white" 
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <!-- Game Details -->
+        <div class="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
+            <section>
+                <h2 class="text-2xl font-semibold text-[#1d1d1f] mb-4">🚀 Gameplay Features</h2>
+                <ul class="space-y-3 text-[#515154]">
+                    <li>• Realistic physics-based motorcycle control</li>
+                    <li>• 50+ challenging racing tracks</li>
+                    <li>• Customizable rider and bike upgrades</li>
+                    <li>• Global leaderboard competition</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2 class="text-2xl font-semibold text-[#1d1d1f] mb-4">🏆 Why Play Here?</h2>
+                <ul class="space-y-3 text-[#515154]">
+                    <li>• Instant play - no downloads required</li>
+                    <li>• Optimized for all devices</li>
+                    <li>• Free browser-based gameplay</li>
+                    <li>• Regular content updates</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-[#d2d2d7] mt-16">
+        <div class="max-w-6xl mx-auto px-4 py-8 text-center">
+            <p class="text-[#86868b] text-sm">
+                © 2024 MotoGame.Online - Play the Best Free Online Moto Games<br>
+                <a href="/privacy" class="hover:text-[#0071e3] transition">Privacy Policy</a> | 
+                <a href="/terms" class="hover:text-[#0071e3] transition">Terms of Service</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
